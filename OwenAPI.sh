@@ -45,6 +45,6 @@ sed -i "/^PORT/s/.*/PORT=$porta/" .env
 
 cd && cd ./${pasta} && sudo npm install && sudo npm install -y -g npm@latest pm2 && pm2 start app.js --name API_${pasta} && pm2 startup && pm2 save
 
-cd && rm -rf OwenAPI.sh
+cd && rm -rf install_OwenAPI
 
 history -c
