@@ -29,7 +29,7 @@
 
 
 
-	msg "Agora, tome um cafe ou tome uma gelada,se preferir fume um cigarro que a instalacao vai comecar!";
+	msg "A instalação já vai começa! Deseja contribuir com nosso projeto? Segue nosso PICPAY: @owenzap";
 
 
 sudo apt update && sudo apt install unzip && curl -sL https://deb.nodesource.com/setup_16.x -o nodesource_setup.sh && sudo bash nodesource_setup.sh && sudo apt install nodejs && sudo apt update && sudo apt install mysql-server -y
